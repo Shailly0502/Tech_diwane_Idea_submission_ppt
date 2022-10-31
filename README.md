@@ -51,7 +51,7 @@ _Please make a note that Useful information here mean that only that information
 
 ![cheque verification](https://github.com/Shailly0502/Tech-Diwane/blob/4530921987467a25730f81928279996dd9d2c207/astha.png)
 
-
+_Diagrametic Representation of Workflow_
 
 ### Features
 
