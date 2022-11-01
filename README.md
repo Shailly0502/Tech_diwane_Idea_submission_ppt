@@ -31,7 +31,7 @@ __Useful information includes:__   _Payee Name, Amount in words, Amount in numbe
 ![cheque image](https://github.com/Shailly0502/Tech-Diwane/blob/f6b6ac386f94a1ac83bbad23283a2805e63eccee/cheque.jpeg)
   
 
-* After cleaning or extracting useful detection from OCR list, the information of the payee is used to compare with the payee's existing record information in database __so as to verify if payee is genuine or not__ and _this process is known as __Verification Process__ & is the most crucial part of the whole process._
+* After cleaning or extracting useful detection from OCR list, the information of the account holder is used to compare with the it's existing record information in database __so as to verify if payee is genuine or not__ and _this process is known as __Verification Process__ & is the most crucial part of the whole process._
 
 * For complete verification of payee, verification of different extracted information takes place with the help of ML modules.
 
