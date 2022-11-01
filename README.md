@@ -17,7 +17,7 @@ Using rule-based and AI/ML/ICR/ OCR (Optical Character Recognition) capabilities
 
 ## Proposed Solution
 
-
+![cheque image](https://github.com/Shailly0502/Tech-Diwane/blob/f6b6ac386f94a1ac83bbad23283a2805e63eccee/cheque.jpeg)
 
 ### Workflow
 
