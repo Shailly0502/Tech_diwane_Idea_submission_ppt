@@ -30,6 +30,7 @@ __Useful information includes:__   _Payee Name, Amount in words, Amount in numbe
 
 ![cheque image](https://github.com/Shailly0502/Tech-Diwane/blob/f6b6ac386f94a1ac83bbad23283a2805e63eccee/cheque.jpeg)
   
+* To ensure the genuinity of cheque, extracted Amount in words is converted into numerical form and then that numerical form is compared with Amount in numbers, if it matches then, cheque information is correct and then further process is done.
 
 * After cleaning or extracting useful detection from OCR list, the extracted information of the payer is used to compare with it's existing record information in database __so as to verify if payer is genuine or not__ and _this process is known as __Verification Process__ & is the most crucial part of the whole process._
 
@@ -46,8 +47,7 @@ __Useful information includes:__   _Payee Name, Amount in words, Amount in numbe
   ![signature verification](https://raw.githubusercontent.com/fastforwardlabs/signver/main/docs/images/signature_pipeline.png)
   
    * Extracted __Account Number__ is verified by checking if any user information with this account number exists.
-  
-   * Extracted __MICR Code__ is verified by matching payee name present in the database of the extacted account number and extracted payee name.
+   * Extracted __MICR Code__ is verifed by checking if leaf number is less than leaf left.
    * __Amount Verification__ is done to check if account contains sufficient amount such that transaction of mentioned amount could take place in future after successful verification of cheque details because _If sufficient amount is present in account then only transaction will take place._
 
  _Only after the successful verification, any processes or transactions(as instructed on cheque like transferring of money to the intended user bank account) takes place._
