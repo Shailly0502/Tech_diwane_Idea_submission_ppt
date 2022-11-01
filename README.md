@@ -54,7 +54,7 @@ __Useful information includes:__   _Payee Name, Amount in words, Amount in numbe
 
 * __After successful cheque processing, the details of the sender gets further updated in the database as per the transaction took place successfully.__
 
-![cheque verification](https://github.com/Shailly0502/Tech-Diwane/blob/4530921987467a25730f81928279996dd9d2c207/astha.png)
+![cheque verification](https://github.com/Shailly0502/Tech-Diwane/blob/69f23f6342bee3c180b161ec4146ce7174276da8/astha.png)
 
 #### _Diagrametic Representation of Complete Workflow_
 
