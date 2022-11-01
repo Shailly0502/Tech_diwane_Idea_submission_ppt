@@ -28,9 +28,9 @@ _Please make a note that Useful information here mean that only that information
 
 ![cheque image](https://github.com/Shailly0502/Tech-Diwane/blob/f6b6ac386f94a1ac83bbad23283a2805e63eccee/cheque.jpeg)
    _Useful information includes:_
-  * Payee Name   * Amount in words  * Amount in numbers
-  * Date         * IFSC Code  * Bank Name * Account Number
-  * MICR Code    * Signature
+     * Payee Name   * Amount in words  * Amount in numbers
+     * Date         * IFSC Code  * Bank Name * Account Number
+     * MICR Code    * Signature
 
 
 
