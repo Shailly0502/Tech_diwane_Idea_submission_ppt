@@ -20,7 +20,7 @@ Using rule-based and AI/ML/ICR/ OCR (Optical Character Recognition) capabilities
 ### Workflow
 
 * A cheque image is taken as an input & scanned. Then this scanned image is transformed into many different small part where every part contain seperate useful information like signature,amount,account number,payee name,bank name,etc. 
-* These parts that extracted by drawing boxes on those parts of the scanned cheque image that contain these information with help of __OpenCV__ and __Geometry.__
+* These parts are extracted by drawing boxes on those parts of the scanned cheque image that contain useful information, with help of __OpenCV__ and __Geometry.__
 * With the help of __Azure APIs__ these small different parts of the scanned images are sent to __OCR(Optical Character Recognition)__ for  processing information written in these small images.
 * OCR model returns a list of detections and then among that list, there are both useful information and additional informations. Among complete list, detections of only required information are considered(this is  known as __text cleaning or extracting of useful information__).
 
