@@ -28,6 +28,18 @@ Using rule-based and AI/ML/ICR/ OCR (Optical Character Recognition) capabilities
 
 _Please make a note that Useful information here mean that only that information that is relevant or required for cheque verification and processing._
 
+Useful information includes:
+* Payee Name
+* Amount in words
+* Amount in numbers
+* Date
+* IFSC Code
+* Bank Name
+* Account Number
+* MICR Code
+* Signature
+
+
 * After cleaning or extracting useful detection from OCR list, the information of the payee is used to verify with the payee's existing record information in database __so as to verify if payee is genuine or not__. 
 
 * For verifying the identity of the payee, Verification of different extracted information takes with the help of ML modules._This process is known as __Verification Process__ and is the most crucial part of the whole process._
